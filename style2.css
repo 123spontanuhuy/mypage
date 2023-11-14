@@ -18,7 +18,7 @@ a{
 header{
 	background-color: black;
 }
-/* navbar styling */
+
 .navbar {
     display: flex;
     height: 5rem;
@@ -28,7 +28,7 @@ header{
     border-bottom: 2px solid grey;
 }
 
-/* logo style */
+
 .logo img{ 
 	width: 4rem; 
 	height: 4rem; 
@@ -84,7 +84,7 @@ header{
 
 @font-face {
     font-family:"Hanson-Bold.ttf";
-    src: url("C:\Users\hebro\Downloads\Compressed\FONT\hanson-bold\Hanson-Bold.ttf") /* TTF file for CSS3 browsers */
+    src: url("C:\Users\hebro\Downloads\Compressed\FONT\hanson-bold\Hanson-Bold.ttf") 
 }
 
 .newFont
@@ -96,8 +96,8 @@ header{
 	max-width: 80%;
 	
 	margin: auto;
-	text-align: left; /* Align the text to the left */
-	padding-left: 0px; /* Add some left padding */
+	text-align: left;
+	padding-left: 0px; 
 	margin-top: 10px;
 }
 .welcome-text {
@@ -107,22 +107,22 @@ header{
 	line-height: 1.5;
 	margin-bottom: 15px;
 	text-align: left;
-	margin: auto; /* Add bottom margin between the texts */
+	margin: auto;
 }
 
 .hobbies-greetings{
 	max-width: 80%;
 	margin: auto;
-	text-align: center; /* Align the text to the left */
-	padding-left: 0px; /* Add some left padding */
+	text-align: center; 
+	padding-left: 0px; 
 	margin-top: 100px;
 }
 
 .flstudio{
 	max-width: 80%;
 	margin: auto;
-	text-align: left; /* Align the text to the left */
-	padding-left: 0px; /* Add some left padding */
+	text-align: left;
+	padding-left: 0px;
 	margin-top: 50px;
 }
 
@@ -130,17 +130,17 @@ header{
 	background-color: #f2f2f2;
 	padding: 0px;
 	text-align: center;
-	position: fixed; /* Fixed position */
+	position: fixed;
 	bottom: 0;
 	width: 100%;
 }
 .footer-bar {
-	height: 50px; /* Adjust the height of the black bar */
+	height: 50px; 
 	background-color: black;
 }
 .copyright {
 	position: absolute;
-	bottom: 15px; /* Adjust as needed for vertical positioning */
+	bottom: 15px; 
 	left: 50%;
 	transform: translateX(-50%);
 	color: white;
@@ -153,11 +153,11 @@ ul {
     height: 500px;
     padding: 0;
     text-align: center;
-    justify-content: center; /* Center the items horizontally */
-    align-items: center; /* Center the items vertically */
-    flex-wrap: wrap; /* Wrap items to the next line if necessary */
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
     margin: 0;
-	bottom: 20px; /* Remove default margin */
+	bottom: 20px; 
 }
 
 .tools ul {
@@ -165,27 +165,26 @@ ul {
     padding: 0;
     display: flex;
 	height: 100px;
-	bottom: 100px; /* Use flexbox to align items horizontally */
+	bottom: 100px; 
 }
-/* Styles for tool list */
-/* Styles for tool list */
+
 .tool-list {
     list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start; /* Start from left */
+    justify-content: flex-start;
 }
 
-/* Each item in the tool list */
+
 .tool-item {
-    flex: 0 0 calc(25% - 20px); /* Each item takes up 25% of the container width with padding */
-    max-width: calc(25% - 20px); /* Limit the maximum width of each item */
-    margin: 10px; /* Space around each item */
+    flex: 0 0 calc(25% - 20px); 
+    max-width: calc(25% - 20px); 
+    margin: 10px; 
     box-sizing: border-box;
 }
 
-/* Ensure images fill their containers */
+
 .tool-item img {
     width: 100%;
     height: auto;
@@ -221,17 +220,17 @@ transition: 1s ease;
 
 
 
-/* Tool name style */
+
 .tool-name,
 .tool-nameSOUND {
     text-align: center;
     margin-top: 5px;
-    margin-bottom: 5px; /* Reduced margin for better alignment */
+    margin-bottom: 5px; 
     font-size: 16px;
-    line-height: 1.2; /* Adjust line height for better alignment */
+    line-height: 1.2; 
 }
 
-/* Container for tool name and image */
+
 .tool-info {
     text-align: center;
 }
@@ -248,19 +247,19 @@ transition: 1s ease;
 	transition: 1s ease;
 	}
 li {
-    margin-bottom: 40px; /* Add space between images */
-    width: 100%; /* Ensure the items take full width */
-    max-width: 480px; /* Limit the maximum width of each item */
+    margin-bottom: 40px; 
+    width: 100%; 
+    max-width: 480px; 
     box-sizing: border-box;
-    padding: 60px 20px; /* Add vertical and horizontal padding */
+    padding: 60px 20px; 
 }
 
 
 div ul li a img {
-    width: 100%; /* Set responsive width */
-    height: auto; /* Maintain aspect ratio */
-    object-fit: cover; /* Maintain proportions */
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); 
 }
 
 .music-desc{
@@ -328,12 +327,12 @@ div ul li a img {
 	padding: 0;
 	padding-left: 0px;
 	display: flex;
-	 /* Use flexbox to align items horizontally */
+	 
   }
   
   .image-list li {
 	margin-left: 40px;
-	margin-right: 30px; /* Adjust the margin between images */
+	margin-right: 30px; 
   }
 
   
@@ -341,9 +340,9 @@ div ul li a img {
   .flscreen2 img {
 	  max-width: 100%; 
 	  border-radius: 10px;
-  	  border: 2px ;/* Ensure images don't overflow their containers */
-	  height: 300px; /* Maintain aspect ratio */
-	   padding-right: 50px;/* Maintain some spacing around images */
+  	  border: 2px ;
+	  height: 300px; 
+	   padding-right: 50px;
 	  
   }
 
@@ -375,34 +374,34 @@ div ul li a img {
 	
 	ul {
         
-        align-items: center; /* Center items horizontally */
+        align-items: center; 
     }
     li {
         width: 100%;
 		margin-bottom: 10px;
-		 /* Set full width for mobile devices */
+		 
     }
 
 	.image-list li {
-        margin-left: 0; /* Remove left margin to align images vertically */
-        margin-right: 0; /* Remove right margin to align images vertically */
+        margin-left: 0; 
+        margin-right: 0;
         margin-bottom: 10px;
-		 /* Add space between images on mobile */
+		
     }
 }
 
-/* Additional media query for larger screens */
+
 @media screen and (min-width: 601px) {
     .image-list {
-        display: flex; /* Use flexbox for better alignment */
-        justify-content: center; /* Center items horizontally */
-        flex-wrap: wrap; /* Allow items to wrap on larger screens */
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; 
     }
 
     .image-list a img {
-        flex: 0 0 10%; /* Set each image to take around 30% of the container width */
-        max-width: 100%; /* Limit image size to 30% of the container width */
-        margin-top: 1px; /* Add space around images */
+        flex: 0 0 10%; 
+        max-width: 100%;
+        margin-top: 1px; 
     }
 }
 
@@ -420,11 +419,7 @@ div ul li a img {
 	  }
    
    }	
-/* Additional media query for even larger screens */
 
-/* Existing CSS remains unchanged */
-
-/* Additional media query for smaller screens */
 @media screen and (max-width: 500px) {
 	.flscreen1,
 	.flscreen2 {
@@ -446,11 +441,11 @@ div ul li a img {
 	.welcoming-container {
 	  margin-top: 0;
 	  
-	  width: 100%; /* Adjust width */
+	  width: 100%; 
 	}
   }
   
-  /* Additional media query for larger screens */
+
   @media screen and (min-width: 500px) {
 	.flscreen1,
 	.flscreen2 {
@@ -472,7 +467,7 @@ div ul li a img {
   
 	.welcoming-container {
 	  margin-top: 0;
-	  /* Adjust margin to avoid being too much to the right */
+	 
 	  width: calc(100% - 40px);
 	}
   }
