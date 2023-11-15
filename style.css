@@ -221,7 +221,17 @@ div ul li a img {
 	opacity: 1;
   }
 
-
+  .animation img{
+	transition: 1s ease;
+	}
+	
+	.animation img:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+	}
+	
   
   .text {
 	background-color: #04AA6D;
